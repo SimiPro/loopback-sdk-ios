@@ -22,7 +22,7 @@
 @implementation LBUserRepository
 
 + (instancetype)repository {
-    LBUserRepository *repository = [self repositoryWithClassName:@"users"];
+    LBUserRepository *repository = [self repositoryWithClassName:@"Users"];
     repository.modelClass = [LBUser class];
     return repository;
 }
